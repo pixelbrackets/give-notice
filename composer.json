@@ -1,0 +1,12 @@
+{
+    "name": "pixelbrackets/give-notice",
+    "description": "Send a request to a preset URI and don’t expect a response",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {"Pixelbrackets\\GiveNotice\\": "src/"}
+    }
+}
