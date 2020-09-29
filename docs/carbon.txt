@@ -1,0 +1,14 @@
+// Expects environment variable »GIVENOTICE_URI« to be set
+
+function someMethod() {
+    // … method logic …
+    \Pixelbrackets\GiveNotice\Notification::push();
+}
+
+function anotherMethod() {
+    \Pixelbrackets\GiveNotice\Notification::push();
+    // … method logic …
+}
+
+// Sends a request to the preset URI if any method is called
+// and does not care about the response
