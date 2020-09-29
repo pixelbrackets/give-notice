@@ -67,6 +67,10 @@ GIVENOTICE_URI='https://example.com/endpoint/11azqde1'
    ```php
    \Pixelbrackets\GiveNotice\Notification::push();
    ```
+1. Send a request and overwrite URI with `https://example.com/alternative/`
+   ```php
+   \Pixelbrackets\GiveNotice\Notification::push('https://example.com/alternative/');
+   ```
 
 ☝️ Be aware that the static notification object is silent by design. It returns
 nothing and catches exceptions, such as connection errors. If the notified 

@@ -14,5 +14,8 @@ class NotificationTest extends TestCase
         $this->assertEmpty(Notification::push());
         putenv('GIVENOTICE_URI=https://example.com');
         $this->assertEmpty(Notification::push());
+
+        $this->assertEmpty(Notification::push(''));
+        $this->assertEmpty(Notification::push('http://localhost'));
     }
 }
