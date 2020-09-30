@@ -4,7 +4,7 @@
     "type": "library",
     "license": "GPL-2.0-or-later",
     "require": {
-        "guzzlehttp/guzzle": "^7.0"
+        "guzzlehttp/guzzle": "^6.0 || ^7.0"
     },
     "suggest": {
         "helhum/dotenv-connector": "Loads environment variables from an .env file automatically"
