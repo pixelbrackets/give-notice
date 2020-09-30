@@ -6,6 +6,9 @@
     "require": {
         "guzzlehttp/guzzle": "^7.0"
     },
+    "suggest": {
+        "helhum/dotenv-connector": "Loads environment variables from an .env file automatically"
+    },
     "autoload": {
         "psr-4": {"Pixelbrackets\\GiveNotice\\": "src/"}
     },
