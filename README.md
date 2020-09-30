@@ -57,10 +57,11 @@ Mirror https://github.com/pixelbrackets/give-notice/
 
 ## Usage
 
-Set an environment variable to preset a URI to call later on
-   ```bash
-   GIVENOTICE_URL='https://example.com/endpoint/11azqde1'
-   ```
+Set an environment variable to preset a URI to call later on.
+
+```bash
+GIVENOTICE_URI='https://example.com/endpoint/11azqde1'
+```
 
 1. Send a request straightaway
    ```php
